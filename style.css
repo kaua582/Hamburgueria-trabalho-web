@@ -69,3 +69,8 @@ body{
     margin: 8px 0px 0px 0px;
     font-family: "Roboto", sans-serif;
 }
+
+.container_card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 3px #dac011;
+}
