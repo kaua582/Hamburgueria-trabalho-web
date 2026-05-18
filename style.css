@@ -10,6 +10,27 @@ body{
     background-color: white;
 }
 
+.container_logo{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom,#ffb300,#ff9800);
+    justify-content: center;
+    align-items: center;
+}
+
+.container_logo img{  
+    width: 400px; 
+}
+
+.container_logo p{
+    margin-top: -20px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #2b1600;
+    letter-spacing: 1px;
+}
+
 .cardapio{
     display: grid;
 
