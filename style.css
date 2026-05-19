@@ -137,3 +137,51 @@ body{
     color: #ffb300;
 }
 /*Fim do rodapé*/
+.menu_navegacao {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 15px; /* Espaço entre os botões */
+}
+
+.menu_navegacao a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #2b1600; /* Cor escura combinando com o slogan */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 30px; /* Deixa os botões arredondados e modernos */
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco semi-transparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+/* Efeito Hover (passar o mouse por cima) */
+.menu_navegacao a:hover {
+    background-color: #2b1600;
+    color: #ffb300;
+    transform: translateY(-2px); /* Dá um leve efeito de subir */
+}
+
+/* Identificador da página ativa (onde o usuário está clicado) */
+.menu_navegacao a.active {
+    background-color: #2b1600;
+    color: #ffffff;
+}
+
+/* Estilos extras para organizar os títulos das páginas */
+.boas_vindas {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.titulo_secao {
+    text-align: center;
+    margin: 30px 0;
+    font-family: Cambria, Georgia, serif;
+    color: #2b1600;
+    font-size: 32px;
+}
