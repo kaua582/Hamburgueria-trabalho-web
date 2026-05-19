@@ -185,3 +185,115 @@ body{
     color: #2b1600;
     font-size: 32px;
 }
+/* --- Página de Detalhes do Produto --- */
+.pagina_detalhes {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.wrapper_produto {
+    display: flex;
+    flex-wrap: wrap; /* Garante que fique bom no celular também */
+    gap: 50px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bloco_imagem {
+    flex: 1;
+    min-width: 300px;
+}
+
+.bloco_imagem img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.bloco_info {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloco_info h1 {
+    font-size: 36px;
+    color: #2b1600;
+    margin-bottom: 15px;
+}
+
+.descricao_completa {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.preco_destaque {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d32f2f;
+    margin-bottom: 25px;
+}
+
+.secao_adicionais {
+    margin-bottom: 30px;
+    background: #fdf6e2;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.secao_adicionais h3 {
+    margin-top: 0;
+    color: #2b1600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.secao_adicionais label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Botões */
+.btn_ver_mais {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn_ver_mais:hover {
+    background-color: #2b1600;
+}
+
+.btn_enviar_pedido {
+    display: block;
+    text-align: center;
+    background-color: #25d366; /* Verde sucesso */
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.btn_enviar_pedido:hover {
+    background-color: #1ebd59;
+}
